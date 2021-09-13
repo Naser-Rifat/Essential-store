@@ -12,18 +12,28 @@ body {
   outline: none;
   border: none;
 }
+
+.bg-card-color{
+  background: #50C9C3;  
+  background: -webkit-linear-gradient(to bottom, #96DEDA, #50C9C3);  
+  background: linear-gradient(to bottom, #96DEDA, #50C9C3);
+  
+
+  
+
+}
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  border: .5px   solid rgb(0, 0, 0);
+  width: 350px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
   border-right: none;
 }
 .search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 20px;
+  padding: 5px 10px;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: 31px;
 }
 #all-products {
   display: grid;
